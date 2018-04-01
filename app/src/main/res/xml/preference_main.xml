@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
 
-    <PreferenceCategory android:title="General Settings:"></PreferenceCategory>
+    <PreferenceCategory android:title="General Settings:"/>
     <ListPreference
         android:title="Text Size"
         android:entries="@array/text_size_titles"
@@ -9,5 +9,11 @@
         android:key="@string/pref_text_size"
         android:defaultValue="15"
         android:summary="The size of description text on the list"/>
+
+    <Preference
+        android:title="About Page">
+        <intent android:action="android.intent.action.VIEW"
+                android:data="http://www.facebook.com/3sapps"/>
+    </Preference>
 
 </PreferenceScreen>
