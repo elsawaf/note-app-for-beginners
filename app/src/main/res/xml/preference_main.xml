@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory android:title="General Settings:"></PreferenceCategory>
+    <ListPreference
+        android:title="Text Size"
+        android:entries="@array/text_size_titles"
+        android:entryValues="@array/text_size_values"
+        android:key="@string/pref_text_size"
+        android:defaultValue="15"
+        android:summary="The size of description text on the list"/>
+
+</PreferenceScreen>

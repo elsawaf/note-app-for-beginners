@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/add_new_note_action"
+        android:title="Add"
+        app:showAsAction="always|withText"
+        android:icon="@android:drawable/ic_menu_add"
+        />
+
+    <item
+        android:id="@+id/linear_action"
+        android:title="Linear"
+        app:showAsAction="never"
+        />
+    <item
+        android:id="@+id/grid_action"
+        android:title="Grid"
+        app:showAsAction="never"
+        />
+    <item
+        android:id="@+id/staggered_action"
+        android:title="Staggered"
+        app:showAsAction="never"
+        />
+
+    <item
+        android:id="@+id/settings_action"
+        android:title="Settings"
+        app:showAsAction="never"
+        />
+</menu>
